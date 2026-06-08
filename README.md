@@ -14,26 +14,25 @@ A working example of CrewAI agents connected to a custom MCP (Model Context Prot
 
 ### Prerequisites
 - Python 3.11+
-- uv (Python package manager): `curl -LsSf https://astral.sh/uv/install.sh | sh`
-- Ollama (for local models): https://ollama.ai or use Claude API
+- A [Groq API Key](https://console.groq.com/keys) (Free tier works perfectly)
 
 ### Installation
 
 ```bash
 # Clone and setup
-git clone <your-repo>
+git clone https://github.com/Himkar001/operations_assistant.git
 cd operations_assistant
 
-# Create virtual environment and install dependencies
-uv venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+# Create virtual environment
+python -m venv .venv
+.\.venv\Scripts\activate  # On Mac/Linux: source .venv/bin/activate
 
 # Install all packages
-uv pip install -r requirements.txt
+pip install -r requirements.txt
 
 # Copy environment file
 cp .env.example .env
-# Edit .env and choose your model
+# Edit .env and paste your Groq API Key!
 ```
 
 ### Running the Project
@@ -57,7 +56,7 @@ npx @modelcontextprotocol/inspector ./src/mcp_server.py
 
 #### 3. Run the CrewAI Crew (Terminal 2 or 3)
 ```bash
-# Run a single query
+# Start the interactive terminal assistant
 python src/crew_main.py
 
 # Or run tests
@@ -152,8 +151,8 @@ python tests/test_mcp_tools.py
 # End-to-end test with crew
 python tests/test_crew.py -v
 
-# Run on specific question
-python src/crew_main.py --question "What is our return policy?"
+# Start the interactive terminal assistant
+python src/crew_main.py
 ```
 
 ---
