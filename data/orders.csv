@@ -1,0 +1,16 @@
+order_id,customer_name,product,package_type,order_date,amount,status,delivery_date
+001,John Smith,SoftwareX,Standard,2024-05-15,99.99,Delivered,2024-05-20
+002,Sarah Johnson,SoftwareX,Premium,2024-05-16,299.99,Delivered,2024-05-21
+003,Mike Davis,SoftwareX,Standard,2024-05-17,99.99,Pending,
+004,Emma Wilson,AnalyticsX,Enterprise,2024-05-18,4999.99,Delivered,2024-05-25
+005,Robert Brown,SoftwareX,Premium,2024-05-19,299.99,Processing,
+006,Lisa Garcia,AnalyticsX,Premium,2024-05-20,1999.99,Delivered,2024-05-27
+007,James Wilson,SoftwareX,Standard,2024-05-22,99.99,Delivered,2024-05-29
+008,Amanda Martinez,SoftwareX,Premium,2024-05-23,299.99,Shipped,
+009,David Lee,AnalyticsX,Standard,2024-05-24,499.99,Processing,
+010,Patricia Rodriguez,SoftwareX,Enterprise,2024-05-25,2999.99,Delivered,2024-06-01
+011,Thomas Anderson,SoftwareX,Standard,2024-05-26,99.99,Delivered,2024-06-02
+012,Jennifer Taylor,AnalyticsX,Premium,2024-05-28,1999.99,Shipped,
+013,Christopher Thomas,SoftwareX,Premium,2024-05-29,299.99,Delivered,2024-06-05
+014,Jessica Moore,SoftwareX,Standard,2024-05-30,99.99,Processing,
+015,Daniel Jackson,AnalyticsX,Enterprise,2024-06-01,4999.99,Processing,
