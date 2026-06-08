@@ -1,0 +1,52 @@
+# Environment variables (contains API keys)
+.env
+.env.local
+.env.*.local
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated files
+*.log
+*.json.bak
+
+# Large generated reports (keep examples, ignore output)
+outputs/reports/*
+outputs/traces/*
+!outputs/reports/.gitkeep
+!outputs/traces/.gitkeep
+!outputs/examples/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary
+*.tmp
+*.temp
